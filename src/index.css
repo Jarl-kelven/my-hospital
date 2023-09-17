@@ -1,0 +1,62 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.container{
+    @apply mx-auto w-11/12 my-14 px-7
+
+}
+
+.btn{
+    @apply text-white text-center font-bold border rounded-full py-2 px-4 bg-primaryColor my-5 sm:text-base text-xs
+}
+.login{
+    @apply w-[50%] rounded-md text-sm
+}
+
+.link{
+    @apply border-[3px] mt-3 border-gray-500 rounded-full p-4 cursor-pointer
+}
+
+.feature-container{
+    @apply flex flex-col mt-14 justify-center items-center text-center lg:basis-2/6
+}
+
+.share-icon{
+    @apply border rounded-full sm:p-4 p-2 text-gray-800 border-gray-800 hover:bg-gray-800 hover:text-white cursor-pointer mt-2
+
+}
+
+.share-icon-pink{
+    @apply border hover:border-primaryLight rounded-full sm:p-3 p-2 text-gray-800 border-gray-800 hover:bg-primaryLight hover:text-primaryColor cursor-pointer
+}
+
+.heading-1{
+    @apply font-bold text-gray-800 sm:text-4xl text-3xl
+}
+
+.list{
+    @apply my-2 sm:text-base text-sm
+}
+
+
+/* footer section styles */
+.foot-head{
+    @apply text-gray-200 font-bold text-lg border-b-4 inline-block border-b-primaryColor py-1 lg:text-xl
+}
+
+.foot-list li{
+    @apply hover:text-gray-300 my-2 cursor-pointer text-xs w-max
+}
+
+.social-list li{
+    @apply mx-2 cursor-pointer hover:text-gray-300 sm:text-xl text-sm
+}
+
+/* styles for the input  */
+
+.input-field{
+    @apply w-full bg-[#f8d5e0] p-3 rounded-t-md border-b-4 text-gray-800 border-b-primaryColor  placeholder:text-primaryColor placeholder:text-xs placeholder:opacity-70 outline-none
+}
